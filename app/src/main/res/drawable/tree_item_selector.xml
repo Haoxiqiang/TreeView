@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <corners android:radius="@dimen/tree_item_half_height" />
+
+            <size android:height="@dimen/tree_item_height" />
+
+            <solid android:color="@color/day_item_selected" />
+            <stroke android:width="1px" android:color="@color/day_divider_color" />
+
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <corners android:radius="@dimen/tree_item_half_height" />
+
+            <size android:height="@dimen/tree_item_height" />
+
+            <solid android:color="@color/day_item_selected" />
+            <stroke android:width="1px" android:color="@color/day_divider_color" />
+
+        </shape>
+    </item>
+    <item android:state_pressed="false">
+
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <corners android:radius="@dimen/tree_item_half_height" />
+
+            <size android:height="@dimen/tree_item_height" />
+
+            <solid android:color="@color/day_item_unselected" />
+            <stroke android:width="1px" android:color="@color/day_divider_color" />
+
+        </shape>
+    </item>
+</selector>
